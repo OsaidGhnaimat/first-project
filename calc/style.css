@@ -1,0 +1,46 @@
+ body{
+     background-color: rgb(170,190,128);
+     
+ }
+
+
+ .parent{
+
+        display: grid;
+        background-color: rgb(162,207,234);
+        grid-gap: 15px;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(5,1fr);
+        width: 30%;
+        padding: 15px;
+        margin: 30px auto;
+        font-size: xxx-large;
+ }
+ .parent > div {
+        color:rgb(0, 0, 0);
+        padding: 21px;
+        background-color: #efefef;
+        font-size: 50px;
+        text-align: center;
+        box-shadow: 0px 6px 3px grey;
+        
+
+ }
+
+
+ .screen{
+    background-color: rgb(241,239,241);
+    grid-column: 1/5 ;
+    text-align: center;
+    padding-top: 25px;
+    
+} 
+div .cal-c{
+    background-color: rgb(255,159,169);
+}
+
+div .yellow{
+    background-color:rgb(241,255,149);
+    
+} 
+
